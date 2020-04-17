@@ -66,7 +66,7 @@
     let content2 = `/* 在纸上准备好简历内容 */
     `
     let content3 = `
-    /* 但是杂乱无章的简历不好看呢，我们来变个魔法美化一下吧！！！ 请注意看右边 >>>>>> */
+    /* 但是杂乱无章的简历不好看呢，我们来变个魔法美化一下吧！！！ 请注意看右边 >>> */
     
     `
     let content4 = `/* 这就是我的会动的简历，谢谢观看 */`
@@ -89,9 +89,9 @@
                         function () {
                             $('#headEle').append('<link rel="stylesheet" href="./css/colorful.css">')
                             setTimeout(finsh, 6000)
-                        }, 0)
-                }, 0)
-        }, 0
+                        }, 100)
+                }, 100)
+        }, 50
     )
 
 
