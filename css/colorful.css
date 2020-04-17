@@ -1,0 +1,183 @@
+ul, ol, li {
+    list-style: none;
+}
+
+.icons svg {
+    width: 22px;
+    height: 22px;
+    margin: 4px;
+}
+
+.paper .backGround {
+    height: 100%;
+    display: flex;
+    background: #fff;
+}
+
+.paper .backGround .leftOne {
+    height: 100%;
+    width: 40%;
+    background: rgb(62, 62, 62);
+}
+
+.paper .backGround .rightOne {
+    height: 100%;
+    width: 60%;
+    background: rgb(213, 212, 210);
+}
+
+.paper .resumeWindow {
+    position: absolute;
+    top: 10%;
+    left: calc(40% - 250px);
+    max-width: 1000px;
+    display: flex;
+    box-shadow: -5px 10px 26px 1px black;
+}
+
+.resumeWindow header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.resumeWindow header div {
+    height: 30px;
+    margin: 2px 0px 10px 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.resumeWindow header div::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 26px;
+    height: 5px;
+    background: rgba(108, 199, 200, 0.9);
+}
+
+.resumeWindow .leftOne {
+    position: relative;
+    height: 600px;
+    background: rgb(48, 49, 51);
+}
+
+.resumeWindow .leftOne .photo {
+    width: 250px;
+    height: 250px;
+    background: pink;
+}
+
+.resumeWindow .leftOne .photo img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: top;
+}
+
+.resumeWindow .nameAndIcons {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumeWindow .name {
+    color: white;
+    font-size: 24px;
+    height: 100%;
+    width: 350px;
+    background: rgba(108, 199, 200, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeWindow .name span:last-child {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.resumeWindow .icons {
+    width: 500px;
+    height: 100%;
+}
+
+.resumeWindow .icons ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resumeWindow .icons ul li {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resumeWindow .icons ul li span, .resumeWindow .icons ul svg {
+    margin-left: 10px;
+}
+
+.resumeWindow .skills {
+    color: white;
+}
+
+.resumeWindow .skills ul {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.resumeWindow .skills ul li {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.resumeWindow .skills .skillBar {
+    height: 5px;
+    width: 100%;
+    background: rgb(246, 246, 246);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.resumeWindow .skills .skillBar .Bar {
+    height: 100%;
+    background: rgb(108, 199, 200);
+    border-radius: 3px;
+}
+
+/* right */
+
+.resumeWindow .rightOne {
+    width: 600px;
+    height: 600px;
+    background: rgb(246, 246, 246);
+}
+
+.resumeWindow .rightOne .overPoint {
+    height: 130px;
+    margin: 0 0 60px 30px;
+}
+
+.resumeWindow .rightOne .projects {
+    margin-left: 30px;
+    font-family: weiruanyahei;
+}

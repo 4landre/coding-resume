@@ -1,0 +1,26 @@
+.token.comment, .token.selector, .token.punctuation, .token.property, .token.function {
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: rgba(108, 199, 200, 0.9);
+    overflow: hidden;
+}
+
+.paper.off {
+    display: none;
+}
+
+.paper .backgroud.off, .paper .resumeWindow.off {
+    display: none;
+}
