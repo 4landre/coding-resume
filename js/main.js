@@ -16,7 +16,7 @@
         top: 0;
         padding: 20px 20px;
         height: 100vh;
-        width: 50%;
+        width: 40%;
     }
     
     .code {
@@ -53,7 +53,7 @@
     /* 然后在右边准备一张纸 */
     
     .paper {
-        width: 50%;
+        width: 60%;
         height: 100vh;
         position: fixed;
         right: 0;
@@ -87,11 +87,11 @@
                     $('.paper').children().removeClass('off')
                     write(preContent, content3,
                         function () {
-                            $('#headEle').append('<link rel="stylesheet" href="./css/colorful.css"></link>')
+                            $('#headEle').append('<link rel="stylesheet" href="./css/colorful.css">')
                             setTimeout(finsh, 6000)
-                        }, 100)
-                }, 100)
-        }, 50
+                        }, 0)
+                }, 0)
+        }, 0
     )
 
 
